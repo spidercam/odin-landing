@@ -1,0 +1,36 @@
+/* CSS Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+img, picture {
+  max-width: 100%;
+  display: block;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* Main Styles */
+body {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header {
+    background-color: #1F2937;
+    color: #fff;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #fff;
+}
